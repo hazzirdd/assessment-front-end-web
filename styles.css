@@ -1,14 +1,21 @@
 body {
-  background: #ddd;
+  background: rgb(137,125,225);
+  background: linear-gradient(180deg, rgba(137,125,225,1) 0%, rgba(119,24,131,1) 94%);
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
+
 }
 
 nav {
-	border-bottom: 2px solid orange;
+	background-color: orange;
+	color: black;
+	font-weight: bolder;
+	display: flex;
+	justify-content: space-around;
+	border: 5px solid black
 }
 
 ol {
@@ -40,6 +47,8 @@ img {
 
 .favButton {
 	background-color: yellow;
+	border: 3px solid black;
+	box-shadow: 3px 6px 7px black;
 	font-weight: bold;
 	height: 50px;
 	width: 150px;
@@ -56,4 +65,16 @@ img {
 #input-aline {
 	display: inline;
 
+}
+
+
+
+html {	
+	border: 15px solid rgb(236, 195, 8);
+}
+
+h1 {
+background-color: rgb(18, 115, 241);
+border: 5px solid rgb(165, 12, 12);
+text-align: center;
 }
