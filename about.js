@@ -1,14 +1,19 @@
 console.log("hello world");
 
-
+let form = document.querySelector('form#contact');
+let rubberDuck = document.querySelector('#rubber-duck')
 
 function handleSubmit(evt) {
 	evt.preventDefault();
 	
-	console.log('form submit');
+	alert('form submitted successfully');
+}
+
+duckCompliment = (event) => {
+	alert('the duck thinks you are pretty great')
 }
 
 
-let form = document.querySelector('form#contact');
 
 form.addEventListener('submit', handleSubmit);
+rubberDuck.addEventListener('mouseover', duckCompliment);
