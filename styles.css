@@ -35,6 +35,7 @@ input {
 
 img {
 	max-width: 300px;
+	border: 5px solid rgb(165, 12, 12);
 }
 
 .favButton {
@@ -42,4 +43,17 @@ img {
 	font-weight: bold;
 	height: 50px;
 	width: 150px;
+}
+
+.profile-title {
+	display: flex;
+	background-color: goldenrod;
+	padding: 1ch 3ch 1ch 3ch;
+	font-family: 'Georgia';
+	border: 5px solid rgb(165, 12, 12);
+}
+
+#input-aline {
+	display: inline;
+
 }
